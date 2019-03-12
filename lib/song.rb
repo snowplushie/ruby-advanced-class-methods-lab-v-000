@@ -42,10 +42,10 @@ class Song
   end
   
   def self.alphabetical(song_name)
-    seld.all.soft_by{|song| song.name}
+    self.all.soft_by{|song| song.name}
   end
   
   def self.new_from_file(file)
     song = self.new
-    
+    song 
 end
