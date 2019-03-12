@@ -52,4 +52,7 @@ class Song
     song.name = song[1].strip
     return song
   end
+  
+  def self.create_from_filename(file)
+    
 end
