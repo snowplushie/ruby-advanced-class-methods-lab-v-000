@@ -42,7 +42,7 @@ class Song
   end
   
   def self.alphabetical
-    self.all.soft_by{|i| i.name}
+    self.all.sort_by{|i| i.name}
   end
   
   def self.new_from_file(file)
