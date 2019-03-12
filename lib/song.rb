@@ -45,5 +45,7 @@ class Song
     seld.all.soft_by{|song| song.name}
   end
   
-  def self.new_from_file(song_name)
+  def self.new_from_file(file)
+    song = self.new
+    
 end
