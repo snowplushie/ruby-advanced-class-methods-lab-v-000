@@ -44,4 +44,6 @@ class Song
   def self.alphabetical(song_name)
     seld.all.soft_by{|song| song.name}
   end
+  
+  def self.new_from_file(song_name)
 end
