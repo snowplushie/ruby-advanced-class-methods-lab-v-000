@@ -41,5 +41,6 @@ class Song
   end
   
   def self.alphabetical(song_name)
-    
+    seld.all.soft_by{|song| song.name}
+  end
 end
