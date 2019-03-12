@@ -61,4 +61,8 @@ class Song
     return song
   end
   
+  def self.destroy_all
+    @@all = []
+  end
+  
 end
